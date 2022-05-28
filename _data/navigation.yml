@@ -1,9 +1,9 @@
 # main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+docs:
+  - title: "운영체제"
+    url: OperationSystem/
+  - title: "자료구조"
+    url: DataStructure/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
