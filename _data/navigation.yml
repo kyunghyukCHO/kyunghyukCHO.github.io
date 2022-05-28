@@ -2,8 +2,10 @@
 docs:
   - title: "운영체제"
     url: OperationSystem/
+    category: "운영체제"
   - title: "자료구조"
     url: DataStructure/
+    category: "자료구조"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
