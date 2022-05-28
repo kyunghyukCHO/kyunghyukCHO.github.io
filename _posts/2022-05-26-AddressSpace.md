@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  " [운영체제] Address Spaces "
+categories:
+  - 운영체제
 ---
 
 memory virtualization
