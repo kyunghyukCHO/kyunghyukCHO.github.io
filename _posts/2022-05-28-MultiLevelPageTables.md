@@ -9,7 +9,7 @@ Multi-Level Page Tables
 
 Bigger pages
 ---
-32bit addressing 을 기준으로 16KB 페이지의 크기를 만들기 위해 14 비트의 offset 을 사용합니다. 이렇게 되면 총 18비트의 VPN 을 사용하게 되고, 페이지 테이블의 크기는 1MB가 된다. big pages 들은 각각의 페이지 사이에 internal fragmentation 문제가 발생합니다. 할당된 페이지의 크기는 크지만 막상 그 안에서 사용하는 메모리양은 적을 경우가 많기 때문입니다. 그러므로 현재 대부분의 시스템들은 상대적으로 작은 페이지의 사이즈를 사용합니다. 
+32bit addressing 을 기준으로 16KB 페이지의 크기를 만들기 위해 14 비트의 offset 을 사용합니다. 이렇게 되면 총 18비트의 VPN 을 사용하게 되고, 페이지 테이블의 크기는 1MB가 된다. big pages 들은 각각의 페이지 안에서 internal fragmentation 문제가 발생합니다. 할당된 페이지의 크기는 크지만 막상 그 안에서 사용하는 메모리양은 적을 경우가 많기 때문입니다. 그러므로 현재 대부분의 시스템들은 상대적으로 작은 페이지의 사이즈를 사용합니다. 
 
 Hybrid pages (paging and segments)
 ---
