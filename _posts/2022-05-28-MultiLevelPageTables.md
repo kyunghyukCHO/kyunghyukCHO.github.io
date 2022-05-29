@@ -13,9 +13,10 @@ Bigger pages
 
 Hybrid pages (paging and segments)
 ---
-새그먼트마다 페이지 테이블이 한개씩 존재합니다. 또, 세개의 base, bounds 쌍이 존재합니다. 여기서 base 와 bounds 는 새그먼트의 것이 아닌 페이지 테이블의 base 와 bounds 를 의미합니다.    
+새그먼트마다 페이지 테이블이 한개씩 존재합니다. 또, 세개의 base, bounds 쌍이 존재합니다. 여기서 base 와 bounds 는 새그먼트의 것이 아닌 페이지 테이블의 base 와 bounds 를 의미합니다.     
 * base register : 페이지 테이블의 시작주소를 가리킵니다 
-* bounds register : 페이지 테이블의 맥시멈값을 가리킵니다 (valid 한 것 중 가장 높은 곳을 가리킵니다.)     
+* bounds register : 페이지 테이블의 맥시멈값을 가리킵니다 (valid 한 것 중 가장 높은 곳을 가리킵니다.)    
+    
 **linear page table 에 비해 페이지 테이블에서 할당되지 않는 페이지가 수가 줄어들고 페이지 테이블의 크기가 더 작아집니다.**
 
 단점
