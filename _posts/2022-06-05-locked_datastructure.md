@@ -14,6 +14,7 @@ how to add locks to data structure
 
 Counter
 ===
+
 concurrent counter
 ---
 동작은 할 수 있으나 여러 threads 가 counter 에 접근하려고 할 때, 성능적으로 좋은 방법은 아님
