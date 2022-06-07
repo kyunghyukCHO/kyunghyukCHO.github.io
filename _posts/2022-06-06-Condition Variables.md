@@ -81,7 +81,7 @@ Producers and Consumers
 Producer 와 consumer 가 동시에 있을때 어떻게 관리할지에 대한 문제입니다. 생산자들은 bounded buffer 에 데이터를 넣습니다. 일종의 큐라고 보면 됩니다. 소비자 입장에서는 큐에서 데이터를 꺼내가게 됩니다. 이러한 관계에 condition variables 를 적절히 사용할 수 있습니다. 
 이것들은 예를들어 Pipe 혹은 Web servers 에서 사용됩니다. boudned buffer 는 shared resource 이기 때문에 동기화된 접근을 얻어야 합니다. 
 
-```phthon
+```python
 int buffer; // 큐 사이즈 1 = 싱글버퍼
 int count = 0;
 void put(int value) {
