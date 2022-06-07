@@ -72,8 +72,10 @@ chlid thread 생성 -> thread join() -> while 문이 종료되고 wait 이 호�
 
 Application
 ===
+
 Producers and Consumers
 ---
+
 * Producers : 데이터 생산 스레드 
 * consumers : 데이터 소비 스레드 
 Producer 와 consumer 가 동시에 있을때 어떻게 관리할지에 대한 문제입니다. 생산자들은 bounded buffer 에 데이터를 넣습니다. 일종의 큐라고 보면 됩니다. 소비자 입장에서는 큐에서 데이터를 꺼내가게 됩니다. 이러한 관계에 condition variables 를 적절히 사용할 수 있습니다. 
